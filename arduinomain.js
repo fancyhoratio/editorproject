@@ -4,7 +4,7 @@ const config = require(path.join(process.cwd(),"app","config","config"))
 if(!config || !config.speech || !config.speech.keyFilename || !config.speech.model || !config.speech.language){
   throw "Configuration Error! Setup your config file";
 }
-
+//helo
 const Sonus = require('sonus')
 const speech = require('@google-cloud/speech')({
   projectId: config.speech.projectId,
