@@ -16,7 +16,7 @@ const speech = require('@google-cloud/speech')({
 const electron = require('electron');
 const spawn = require('child_process').spawn
 const app = electron.app;
-
+//leave for now
 const BrowserWindow = electron.BrowserWindow;
 
 let mainWindow;
